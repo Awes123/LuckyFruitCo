@@ -1,18 +1,32 @@
 .App {
   text-align: center;
+  scroll-behavior: smooth;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.card-body {
+  box-shadow: 2px 4px 10px #ccc !important;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.fruiticon {
+  background-color: rgb(106, 164, 72);
+  width: 50%;
+  padding: 20px;
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+}
+.fruiticon:hover {
+  background-color: #bc2957;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
