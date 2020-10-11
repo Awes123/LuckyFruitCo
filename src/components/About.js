@@ -7,7 +7,10 @@ const About = () => {
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-md-12 col-lg-12 col-xs-12">
-              <div className="about text-center">
+              <div
+                className="about text-center"
+                style={{ backgroundColor: "#eee" }}
+              >
                 <h4>Welcome</h4>
                 <p>
                   Vivamus sem sapien, volutpat in urna ut, laoreet sellicitudin

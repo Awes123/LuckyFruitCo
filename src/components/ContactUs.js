@@ -1,5 +1,5 @@
 import React from "react";
-
+import logo from "../assests/images/nlfc/NLFCGRSFB.png";
 const ContactUs = () => {
   return (
     <div>
@@ -16,7 +16,7 @@ const ContactUs = () => {
                 <i class="icon_star_alt"></i>
                 <i class="icon_star_alt"></i>
               </h4>
-              <p>Pellentesque sed posuere nisi. Nunc nec looreet mauris.</p>
+              <p>Have any questions? We'd love to hear from you.</p>
             </div>
             <div class="row">
               <div class="col-12 col-md-6 col-lg-6">
@@ -105,25 +105,83 @@ const ContactUs = () => {
         </div>
       </div>
       <div class="row p-0 m-0" style={{ backgroundColor: "#000" }}>
-        <div class="container">
+        <div class="">
           <div class="row">
-            <div class="col-md-12 p-5">
-              <div class="address" style={{ bottom: 0 }}>
-                <ul class="list-inline">
-                  <li>
-                    <i class="icon_map_alt"></i>
-                    Shop 36 <br />
-                    APMC Market, Aurangabad
-                  </li>
-                  <li>
-                    <i class="fa fa-envelope-o"></i>
-                    nabeel@luckyfruitco.com
-                  </li>
-                  <li>
-                    <i class="icon_mobile"></i>
-                    +91 9595111536
-                  </li>
-                </ul>
+            <div class="container text-center text-md-left">
+              <div
+                class="row text-center text-md-left mt-5 mb-4 p-5"
+                style={{ backgroundColor: "#fff", borderRadius: 170 }}
+              >
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-4">
+                  <img
+                    src={logo}
+                    alt="Logo"
+                    style={{ width: "234px", height: "116px" }}
+                  />
+                </div>
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+                  <p>
+                    <span>MDBootstrap</span>
+                  </p>
+                  <p>
+                    <span>MDBootstrap</span>
+                  </p>
+                  <p>
+                    <span>MDBootstrap</span>
+                  </p>
+                  <p>
+                    <span>MDBootstrap</span>
+                  </p>
+                </div>
+
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">
+                    Useful links
+                  </h6>
+                  <p>
+                    <span>MDBootstrap</span>
+                  </p>
+                  <p>
+                    <span>MDBootstrap</span>
+                  </p>
+                  <p>
+                    <span>MDBootstrap</span>
+                  </p>
+                  <p>
+                    <span>MDBootstrap</span>
+                  </p>
+                </div>
+
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                  <p>
+                    <i class="fa fa-home mr-3"></i> New York, NY 10012, US
+                  </p>
+                  <p>
+                    <i class="fa fa-envelope mr-3"></i> info@gmail.com
+                  </p>
+                  <p>
+                    <i class="fa fa-phone mr-3"></i> + 01 234 567 88
+                  </p>
+                  <p>
+                    <i class="fa fa-print mr-3"></i> + 01 234 567 89
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="footer-copyright d-flex col-lg-12 bg-dark mt-3 text-white text-center p-3">
+              <div class="col-lg-6">© 2020 Copyright: Lucky Fruit Company</div>
+              <div class="col-lg-6">
+                Developed by:
+                <a
+                  href="https://www.quadintellectx.com/"
+                  class="ml-2"
+                  style={{ color: "rgb(255, 255, 255)" }}
+                >
+                  www.Quadintelletcx.com
+                </a>
               </div>
             </div>
           </div>

@@ -20,7 +20,7 @@ import WhyChooseUs from "./components/WhyChooseUs";
 import Team from "./components/Team";
 import Gallery from "./components/Gallery";
 import ContactUs from "./components/ContactUs";
-
+import Past from "./components/Past";
 import Aos from "aos";
 import "aos/dist/aos.css";
 function App() {
@@ -46,6 +46,7 @@ function App() {
       <WhatWeDo />
       <OurProducts />
       <WhyChooseUs />
+      <Past />
       <Team />
       <Gallery />
       <ContactUs />

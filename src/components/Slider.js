@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import img from "../assests/images/header3/slider.png";
-
+import img1 from "../assests/images/header3/All.JPG";
+import img2 from "../assests/images/header3/Slide4.JPG";
+import img3 from "../assests/images/header3/Slide3.JPG";
 import { boolean, number } from "@storybook/addon-knobs";
 const tooglesGroupId = "Toggles";
 const valuesGroupId = "Values";
@@ -30,16 +32,13 @@ class Slider extends Component {
     return (
       <Carousel {...getConfigurableProps()}>
         <div>
-          <img src={img} alt="img1" />
-          <p className="legend">Legend 1</p>
+          <img src={img3} alt="img1" />
         </div>
         <div>
-          <img src={img} alt="img1" />
-          <p className="legend">Legend 2</p>
+          <img src={img1} alt="img1" />
         </div>
         <div>
-          <img src={img} alt="img1" />
-          <p className="legend">Legend 3</p>
+          <img src={img2} alt="img1" />
         </div>
       </Carousel>
     );

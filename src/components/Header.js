@@ -11,6 +11,18 @@ const Header = () => {
                 <li>
                   <a href="contactus.html">Welcome to LUCKY FRUIT COMPANY</a>
                 </li>
+                <li>
+                  <a
+                    href="#"
+                    style={{
+                      fontFamily: "cursive",
+                      color: "#3aa16c",
+                      fontSize: 26,
+                    }}
+                  >
+                    live a healthier life..
+                  </a>
+                </li>
               </ul>
               <ul className="list-inline float-right  icons">
                 <li>
