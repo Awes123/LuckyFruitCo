@@ -1,15 +1,21 @@
-import React from "react";
-import Carousel from "react-multi-carousel";
+import React,{useEffect} from "react";
 import "react-multi-carousel/lib/styles.css";
-import team1 from "../assests/images/nlfc/team1.png";
-import team3 from "../assests/images/nlfc/team3.png";
 import IrshadB from "../assests/images/IrshadNMBagbanNew.jpg";
 import AkramB from "../assests/images/AkramARBagbanNew.jpg";
 import JavedB from "../assests/images/javedarbagbanNew.jpg";
 import AnwarB from "../assests/images/AnwarArBagbanNew.jpg";
 import ZaffarB from "../assests/images/ZafarARBagabnNew.jpg";
 import NabeelB from "../assests/images/NabeelZBagbanNew.jpg";
+
+import Aos from "aos";
+import "aos/dist/aos.css";
 const Team = () => {
+  
+  useEffect(() => {
+    Aos.init({
+      duration: 2000,
+    });
+  }, []);
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -33,7 +39,7 @@ const Team = () => {
     <div>
       <div class="team back">
         <div class="container">
-          <div class="row">
+          <div class="row p-0 m-0">
             <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 commontop text-center">
               <h4>
                 <i class="icon_star_alt"></i>
@@ -44,34 +50,29 @@ const Team = () => {
                 <i class="icon_star_alt"></i>
                 <i class="icon_star_alt"></i>
               </h4>
-              <p>
-                Pellentesque sed posuere nisi. Nunc nec looreet mauris. Etiam
-                valutpat ligula eu lacus varius scelerisque. Morbi fringilla
-                euismod semper.
-              </p>
             </div>
-            <div class="col-sm-3 col-md-3 col-lg-3 col-xs-12">
+            <div class="col-sm-3 col-md-3 col-lg-3 col-xs-12" data-aos="zoom-in-up">
               <div class="box">
                 <img src={NabeelB} class="img-fluid rounded-circle" alt="img" />
                 <h3>Nabeel Z Bagban</h3>
                 <p>9595111536</p>
               </div>
             </div>
-            <div class="col-sm-3 col-md-3 col-lg-3 col-xs-12">
+            <div class="col-sm-3 col-md-3 col-lg-3 col-xs-12" data-aos="zoom-in-up">
               <div class="box">
                 <img src={ZaffarB} class="img-fluid rounded-circle" alt="img" />
                 <h3>Zaffar AR Bagban</h3>
                 <p>9325211569</p>
               </div>
             </div>
-            <div class="col-sm-3 col-md-3 col-lg-3 col-xs-12">
+            <div class="col-sm-3 col-md-3 col-lg-3 col-xs-12" data-aos="zoom-in-up">
               <div class="box">
                 <img src={AnwarB} class="img-fluid rounded-circle" alt="img" />
                 <h3>Anwar Ar Bagban</h3>
                 <p>9422890595</p>
               </div>
             </div>
-            <div class="col-sm-3 col-md-3 col-lg-3 col-xs-12">
+            <div class="col-sm-3 col-md-3 col-lg-3 col-xs-12" data-aos="zoom-in-up">
               <div class="box">
                 <img src={AkramB} class="img-fluid rounded-circle" alt="img" />
                 <h3>Akram AR Bagban</h3>
@@ -79,15 +80,15 @@ const Team = () => {
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-sm-3 col-md-3 col-lg-3 col-xs-12">
+          <div class="row p-0 m-0">
+            <div class="col-sm-3 col-md-3 col-lg-3 col-xs-12 offset-lg-3 offset-md-3">
               <div class="box">
                 <img src={JavedB} class="img-fluid rounded-circle" alt="img" />
                 <h3>Javed Ar Bagban</h3>
                 <p>9890903236</p>
               </div>
             </div>
-            <div class="col-sm-3 col-md-3 col-lg-3 col-xs-12">
+            <div class="col-sm-3 col-md-3 col-lg-3 col-xs-12" data-aos="zoom-in-up">
               <div class="box">
                 <img
                   src={IrshadB}

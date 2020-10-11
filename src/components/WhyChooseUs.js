@@ -32,7 +32,7 @@ const WhyChooseUs = () => {
           </div>
         </div>
         <div className="container">
-          <div className="row">
+          <div className="row p-0 m-0">
             <div className="col-12 col-lg-4 col-md-4">
               <div className="vc_column-inner">
                 <div className="wpb_wrapper">
@@ -48,10 +48,10 @@ const WhyChooseUs = () => {
                   >
                     <div className="">
                       <div>
-                        <div className="row" data-aos="zoom-in-right">
+                        <div className="row p-0 m-0" data-aos="zoom-in-right">
                           <div className="col-3 pr-0">
                             <div className="fruiticon rounded-circle col-12">
-                              <img className="img-fluid" src={apple} />
+                              <img className="img-fluid" src={apple} alt="prdbct" />
                             </div>
                           </div>
                           <div className="sc_services_item_info col-9 pl-0 pt-4">
@@ -69,10 +69,10 @@ const WhyChooseUs = () => {
                         </div>
                       </div>
                       <div>
-                        <div className="row" data-aos="zoom-in-right">
+                        <div className="row p-0 m-0" data-aos="zoom-in-right">
                           <div className="col-3 pr-0">
                             <div className="fruiticon rounded-circle col-12">
-                              <img className="img-fluid" src={apple} />
+                              <img className="img-fluid" src={apple} alt="prdbct" />
                             </div>
                           </div>
 
@@ -94,10 +94,10 @@ const WhyChooseUs = () => {
                         </div>
                       </div>
                       <div>
-                        <div className="row" data-aos="zoom-in-right">
+                        <div className="row p-0 m-0" data-aos="zoom-in-right">
                           <div className="col-3 pr-0">
                             <div className="fruiticon rounded-circle col-12">
-                              <img className="img-fluid" src={apple} />
+                              <img className="img-fluid" src={apple} alt="prdbct" />
                             </div>
                           </div>
 
@@ -139,7 +139,7 @@ const WhyChooseUs = () => {
                           width="370"
                           height="370"
                           src="https://preston.axiomthemes.com/wp-content/uploads/2016/10/icon_services.png"
-                          className="vc_single_image-img attachment-full"
+                          className="vc_single_image-img attachment-full img-fluid"
                           alt=""
                           srcset="https://preston.axiomthemes.com/wp-content/uploads/2016/10/icon_services.png 370w, https://preston.axiomthemes.com/wp-content/uploads/2016/10/icon_services-300x300.png 300w, https://preston.axiomthemes.com/wp-content/uploads/2016/10/icon_services-100x100.png 100w, https://preston.axiomthemes.com/wp-content/uploads/2016/10/icon_services-150x150.png 150w"
                           sizes="(max-width: 370px) 100vw, 370px"
@@ -171,7 +171,7 @@ const WhyChooseUs = () => {
                   >
                     <div className="sc_services_content sc_item_content">
                       <div className="sc_services_item with_icon sc_services_item_featured_right">
-                        <div className="row" data-aos="zoom-in-left">
+                        <div className="row p-0 m-0" data-aos="zoom-in-left">
                           <div className="sc_services_item_info col-9 pl-0 pt-4">
                             <h4 className="sc_services_item_title">
                               Integrated Supplier
@@ -182,7 +182,7 @@ const WhyChooseUs = () => {
                           </div>
                           <div className="col-3 pr-0">
                             <div className="fruiticon rounded-circle col-12">
-                              <img className="img-fluid" src={apple} />
+                              <img className="img-fluid" src={apple} alt="prdbct" />
                             </div>
                           </div>
 
@@ -196,7 +196,7 @@ const WhyChooseUs = () => {
                         </div>
                       </div>
                       <div className="sc_services_item with_icon sc_services_item_featured_right">
-                        <div className="row" data-aos="zoom-in-left">
+                        <div className="row p-0 m-0" data-aos="zoom-in-left">
                           <div className="sc_services_item_info col-9 pl-0 pt-4">
                             <h4 className="sc_services_item_title">
                               Sustainable Practice
@@ -207,7 +207,7 @@ const WhyChooseUs = () => {
                           </div>
                           <div className="col-3 pr-0">
                             <div className="fruiticon rounded-circle col-12">
-                              <img className="img-fluid" src={apple} />
+                              <img className="img-fluid" src={apple} alt="prdbct" />
                             </div>
                           </div>
 
@@ -221,7 +221,7 @@ const WhyChooseUs = () => {
                         </div>
                       </div>
                       <div className="sc_services_item with_icon sc_services_item_featured_right">
-                        <div className="row" data-aos="zoom-in-left">
+                        <div className="row p-0 m-0" data-aos="zoom-in-left">
                           <div className="sc_services_item_info col-9 pl-0 pt-4">
                             <h4 className="sc_services_item_title">
                               The Benefits Only
@@ -232,7 +232,7 @@ const WhyChooseUs = () => {
                           </div>
                           <div className="col-3 pr-0">
                             <div className="fruiticon rounded-circle col-12">
-                              <img className="img-fluid" src={apple} />
+                              <img className="img-fluid" src={apple} alt="prdbct" />
                             </div>
                           </div>
                           <div className="sc_services_item_content">

@@ -5,7 +5,7 @@ const Header = () => {
     <div>
       <div className="top">
         <div className="container">
-          <div className="row">
+          <div className="row p-0 m-0">
             <div className="col-sm-12 col-md-12 col-lg-12 col-xs-12">
               <ul className="list-inline float-left icon icons">
                 <li>

@@ -1,64 +1,32 @@
 import React from "react";
-import apple from "../assests/images/fruitsIcons/apple.png";
 import CountUp from "react-countup";
 const Past = () => {
   return (
     <div>
-      <section class="text-white counter_box">
+      <section class="text-white counter_box pt-5 pb-5">
         <div class="container">
           <div class="row box_row">
-            <div class="col-md-3 col-xs-6 box">
-              <div className="fruiticon rounded-circle col-12">
-                <img className="img-fluid" src={apple} />
-              </div>
+            <div class="col-md-4 col-xs-6 box">
               <h3>
                 <CountUp end={27} />
-                <sub>Cities</sub>
+                <span>Cities</span>
               </h3>
-              <p>
-                National
-                <br />
-                Presence
-              </p>
             </div>
-            <div class="col-md-3 col-xs-6 box">
-              <div className="fruiticon rounded-circle col-12">
-                <img className="img-fluid" src={apple} />
-              </div>
+            <div class="col-md-4 col-xs-6 box">
               <h3>
-                <CountUp end={16} />
+                <CountUp end={2} />
+                <span>   Branches</span>
               </h3>
               <p>
-                Cold
-                <br />
-                Storages
+           
               </p>
             </div>
-            <div class="col-md-3 col-xs-6 box">
-              <div className="fruiticon rounded-circle col-12">
-                <img className="img-fluid" src={apple} />
-              </div>
-              <h3>
-                <CountUp end={85} />
-              </h3>
-              <p>
-                Refrigerator
-                <br />
-                Trucks
-              </p>
-            </div>
-            <div class="col-md-3 col-xs-6 box">
-              <div className="fruiticon rounded-circle col-12">
-                <img className="img-fluid" src={apple} />
-              </div>
+            <div class="col-md-4 col-xs-6 box">
               <h3>
                 <CountUp end={50} />
+                <span>   Products</span>
+
               </h3>
-              <p>
-                Variety
-                <br />
-                of Products
-              </p>
             </div>
           </div>
         </div>

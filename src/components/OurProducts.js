@@ -31,7 +31,7 @@ const OurProducts = () => {
                   Our Products
                 </h2>
                 <div class="container">
-                  <div class="row">
+                  <div class="row p-0 m-0">
                     <div data-aos="zoom-in" class="col-12 col-lg-3 col-md-3">
                       <div
                         class="card card-body p-3 mt-3"

@@ -5,7 +5,7 @@ const ContactUs = () => {
     <div>
       <div class="contactus">
         <div class="container">
-          <div class="row">
+          <div class="row p-0 m-0">
             <div class="col-12 commontop text-center">
               <h4>
                 <i class="icon_star_alt"></i>
@@ -18,14 +18,14 @@ const ContactUs = () => {
               </h4>
               <p>Have any questions? We'd love to hear from you.</p>
             </div>
-            <div class="row">
+            <div class="row p-0 m-0">
               <div class="col-12 col-md-6 col-lg-6">
                 <form
                   method="post"
                   enctype="multipart/form-data"
                   class="form-horizontal"
                 >
-                  <div class="row">
+                  <div class="row p-0 m-0">
                     <div class="col-md-6 col-sm-6 col-xs-12">
                       <div class="form-group">
                         <input
@@ -53,7 +53,7 @@ const ContactUs = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="row">
+                  <div class="row p-0 m-0">
                     <div class="col-md-12 col-sm-12 col-xs-12">
                       <div class="form-group">
                         <input
@@ -106,7 +106,7 @@ const ContactUs = () => {
       </div>
       <div class="row p-0 m-0" style={{ backgroundColor: "#000" }}>
         <div class="">
-          <div class="row">
+          <div class="row p-0 m-0">
             <div class="container text-center text-md-left">
               <div
                 class="row text-center text-md-left mt-5 mb-4 p-5"

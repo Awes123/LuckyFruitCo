@@ -43,13 +43,13 @@ function App() {
       <div data-aos="flip-up">
         <About />
       </div>
-      <WhatWeDo />
-      <OurProducts />
-      <WhyChooseUs />
-      <Past />
-      <Team />
-      <Gallery />
-      <ContactUs />
+      <WhatWeDo data-aos="flip-up" />
+      <OurProducts data-aos="flip-up" />
+      <WhyChooseUs data-aos="flip-up"/>
+      <Past data-aos="flip-up" />
+      <Team data-aos="flip-up"/>
+      <Gallery data-aos="flip-up"/>
+      <ContactUs data-aos="flip-up"/>
     </div>
   );
 }

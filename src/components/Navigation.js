@@ -5,7 +5,7 @@ const Navigation = () => {
     <div>
       <header className="pt-2 pb-2">
         <div className="container">
-          <div className="row">
+          <div className="row p-0 m-0">
             <div className="col-md-3 col-sm-3 col-lg-3 col-xs-12">
               <div id="logo">
                 <a href="/">
